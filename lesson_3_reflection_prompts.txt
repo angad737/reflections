@@ -1,7 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    It makes sense to store your code and data on the cloud in order to collaborate with others working on the project with you. It also works makes sense to store your data on a cloud for safekeeping away from coffee spills or aging hardware issues. The remote repository allows you to track progess as a collective team in addition to the changes each commit makes.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
