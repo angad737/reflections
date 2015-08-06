@@ -17,3 +17,7 @@ Git log will give you the commit IDs and git diff will show the insertions and d
 How might using version control make you more confident to make changes that could break something?
 
 You know you can always return to a working point in the code before. Allowing you to be more adventurous
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Git will be the Version Control system of the Referral sharing Platform for the project code named Jugaad.

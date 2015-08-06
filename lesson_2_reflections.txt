@@ -1,1 +1,63 @@
-something
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+
+The staging area is like a holding area for the files intended for a
+commit. This allows the user to break down commits into logical changes
+rather than be forced to commit the contents of the working directory 
+entirely which would not allow such flexibility.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+You could use the staging area and the "git diff" function to see what
+changes you have applied to the file. This will allow the user to
+clearly see the changes they have made so far. If the developer starts
+with a goal in mind then they can easily commit each goal or breakdown
+their tasks into simpler more meaningful tasks.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches will allow the user to experiment with the program maybe
+try some experimental features, create an alternate version of the
+program, while leaving the core program unaffected by the cheanges.
+If it is decided that the experiment is a success and the features
+are to be incorporated then the changes in the branch may be merged
+with the master even if the master has gone through some changes
+since the branch was created
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams will allow the user to easily naviagte and track any changes
+or experiments made to the program. It is much more intuitive and easier
+to follow than a whole block of text
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches allows the user to integrate two pieces of code to a working state using merging logic.
+Merging Logic:
+
+Jake: B D E
+Rachel: A B C D
+Original: A B D
+
+Final: B C D E
+
+Any deletions (Like Jake deleted A) will be removed from the Final any 
+additions will be inserted (Like E from Jake and C from Rachel) in the 
+Final
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Gits auto merge feature is great! It allows the users to merge 
+seemingly different code into a single functioning piece with the logic 
+previously discussed. If it so happens that a piece of code is simply 
+altered or a common ancestor between the code is altered then it is 
+left to the user to decide which one to implement since the user is the 
+expert on the content of the code. This ensures transparency and 
+approval from the user. The manual merge conflict resolution highlights 
+the changes between the current HEAD and the branch to merge with in 
+the file with the conflict with "<<<<<<<<<<<HEAD" for the difference 
+between the common ancestor and the current HEAD. "||||||||||| merged 
+common ancestors" for the code before the it was branched and edited.
+Finally ">>>>>>>>>>{name-of-branch}" for the difference between the 
+common ancestor and the {name-of-branch}. All in all its quiet badass. I can see very applicable uses for my secret master plan to save the planet and its poor people, muahahahahaha, its verking :)
